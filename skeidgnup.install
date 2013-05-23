@@ -72,8 +72,8 @@ function skeidgnup_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'seven';
+  $default_theme = variable_get('theme_default', 'skeidgnup_theme');
+  $admin_theme = 'rubik';
   $blocks = array(
     array(
       'module' => 'system',
@@ -235,13 +235,13 @@ function skeidgnup_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'seven')
+    ->condition('name', 'rubik')
     ->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
 
     theme_enable(array('bartik'));
-    variable_set('theme_default','bartik');
+    variable_set('theme_default','skeidgnup_theme');
     
    // Only admins can create users
      variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
