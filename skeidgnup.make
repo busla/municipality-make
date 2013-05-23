@@ -23,7 +23,8 @@ projects[] = "text_resize"
 projects[] = "views"
 projects[] = "views_bootstrap"
 projects[] = "views_slideshow"
-
+projects[] = "features"
+projects[] = "strongarm"
 
 ; Custom themes and features ======================================================================
 
