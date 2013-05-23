@@ -49,6 +49,12 @@ libraries[lessphp][download][url] = "http://leafo.net/lessphp/src/lessphp-0.3.9.
 libraries[lessphp][directory_name] = "lessphp"
 libraries[lessphp][type] = "library"
 
+; Bootstrap library
+libraries[bootstrap][download][type] = "git"
+libraries[bootstrap][destination] = "themes/skeidgnup_theme/bootstrap"
+libraries[bootstrap][overwrite] = "TRUE"
+libraries[bootstrap][download][url] = "https://github.com/twitter/bootstrap.git"
+libraries[bootstrap][branch] = "master"
 
 ; Themes ======================================================================
 
