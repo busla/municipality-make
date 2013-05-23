@@ -5,7 +5,7 @@ core = 7.x
 projects[] = "drupal"
 projects[] = "admin"
 projects[] = "admin_menu"
-projects[] = "ctools"
+projects[ctools][version] = "1.x-dev"
 projects[] = "devel"
 projects[] = "entity_view_mode"
 projects[] = "file_entity"
@@ -26,6 +26,7 @@ projects[] = "views_slideshow"
 projects[] = "features"
 projects[] = "strongarm"
 projects[] = "diff"
+projects[] = "ckeditor"
  
 ; Custom themes and features ======================================================================
 
@@ -71,6 +72,12 @@ libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[jquery.cycle][download][filename] = "jquery.cycle.all.min.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
+libraries[ckeditor][type] = "library"
+libraries[ckeditor][download][type] = "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.1/ckeditor_4.1.1_full.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+
 
 
 ; Themes ======================================================================
