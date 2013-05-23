@@ -42,24 +42,34 @@ projects[skeidgnup_app][branch] = "master"
 ; Libraries ======================================================================
 
 ; Flexslider
+libraries[flexslider][type] = "library"
 libraries[flexslider][download][type] = "git"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider.git"
 libraries[flexslider][directory_name] = "flexslider"
-libraries[flexslider][type] = "library"
 libraries[flexslider][branch] = "master"
 
 ; LESSphp
+libraries[lessphp][type] = "library"
 libraries[lessphp][download][type] = "file"
 libraries[lessphp][download][url] = "http://leafo.net/lessphp/src/lessphp-0.3.9.tar.gz"
 libraries[lessphp][directory_name] = "lessphp"
-libraries[lessphp][type] = "library"
+
 
 ; Bootstrap library
+libraries[bootstrap][type] = "library"
 libraries[bootstrap][download][type] = "git"
 libraries[bootstrap][destination] = "themes/skeidgnup_theme"
 libraries[bootstrap][overwrite] = "TRUE"
 libraries[bootstrap][download][url] = "https://github.com/twitter/bootstrap.git"
 libraries[bootstrap][branch] = "master"
+
+; jQuery Cycle
+libraries[jquery.cycle][type] = "library"
+libraries[jquery.cycle][download][type] = "file"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+libraries[jquery.cycle][download][filename] = "jquery.cycle.all.min.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
 
 ; Themes ======================================================================
 
