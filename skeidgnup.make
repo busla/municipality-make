@@ -13,7 +13,7 @@ projects[] = "flexslider"
 projects[] = "flexslider_views_slideshow"
 projects[] = "imagefield_crop"
 projects[] = "jquery_update"
-projects[] = "less"
+projects[less][version] = "3.x-dev"
 projects[] = "libraries"
 projects[] = "manual-crop"
 projects[] = "module_filter"
@@ -25,7 +25,8 @@ projects[] = "views_bootstrap"
 projects[] = "views_slideshow"
 projects[] = "features"
 projects[] = "strongarm"
-
+projects[] = "diff"
+ 
 ; Custom themes and features ======================================================================
 
 projects[skeidgnup_theme][type] = "theme"

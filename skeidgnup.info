@@ -37,3 +37,4 @@ dependencies[] = text
 dependencies[] = views
 dependencies[] = views_slideshow
 dependencies[] = module_filter
+dependencies[] = diff
