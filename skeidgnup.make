@@ -25,11 +25,14 @@ projects[] = "views_bootstrap"
 projects[] = "views_slideshow"
 
 
-; Custom ======================================================================
+; Custom theme ======================================================================
 
-projects[skeidgnup_theme][download][type] = ""
-projects[skeidgnup_theme][download][url] = ""
 projects[skeidgnup_theme][type] = "theme"
+projects[skeidgnup_theme][directory_name] = "skeidgnup"
+projects[skeidgnup_theme][download][type] = "git"
+projects[skeidgnup_theme][download][url] = "aegir@kropotkin:/var/aegir/skeidgnup/skeidgnup_theme.git"
+projects[skeidgnup_theme][branch] = "master"
+
 
 ; Libraries ======================================================================
 
