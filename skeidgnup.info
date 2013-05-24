@@ -38,4 +38,4 @@ dependencies[] = views
 dependencies[] = views_slideshow
 dependencies[] = module_filter
 dependencies[] = diff
-dependencies[] = skeidgnup_app
+;dependencies[] = skeidgnup_app
