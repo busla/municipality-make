@@ -27,7 +27,13 @@ projects[] = "features"
 projects[] = "strongarm"
 projects[] = "diff"
 projects[] = "ckeditor"
- 
+projects[] = "uuid"
+
+projects[uuid_features][type] = "module"
+projects[uuid_features][download][type] = "git"
+projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
+projects[uuid_features][branch] = "7.x-1.x"
+
 ; Custom themes and features ======================================================================
 
 projects[skeidgnup_theme][type] = "theme"

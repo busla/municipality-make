@@ -56,23 +56,7 @@ function skeidgnup_install() {
      variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
   
   
-  // Any themes without keys here will get numeric keys and so will be enabled,
-  // but not placed into variables.
-  $enable = array(
-    'theme_default' => 'skeidgnup_theme',
-    'admin_theme' => 'rubik',
-    //'zen'
-  );
-  theme_enable($enable);
-
-  foreach ($enable as $var => $theme) {
-    if (!is_numeric($var)) {
-      variable_set($var, $theme);
-    }
-  }
-
-  // Disable the default Bartik theme
-  theme_disable(array('bartik'));
+ 
      
 }
 
