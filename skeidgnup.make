@@ -37,6 +37,7 @@ projects[] = "transliteration"
 projects[] = "job_scheduler"
 projects[] = "workbench"
 projects[] = "workbench_media"
+projects[] = "panels_breadcrumbs"
 
 ; Custom themes and features ======================================================================
 
