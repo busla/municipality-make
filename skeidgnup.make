@@ -35,6 +35,9 @@ projects[] = "calendar"
 projects[] = "feeds"
 projects[] = "transliteration"
 projects[] = "job_scheduler"
+projects[] = "workbench"
+projects[] = "workbench_media"
+
 ; Custom themes and features ======================================================================
 
 projects[skeidgnup_theme][type] = "theme"
