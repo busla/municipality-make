@@ -24,6 +24,7 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
+
 ; Hreppur ===================================================================
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
@@ -38,4 +39,6 @@ dependencies[] = views
 dependencies[] = views_slideshow
 dependencies[] = module_filter
 dependencies[] = diff
+dependencies[] = workbench
+dependencies[] = workbench_media
 dependencies[] = skeidgnup_app
