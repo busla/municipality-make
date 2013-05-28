@@ -32,6 +32,7 @@ projects[] = "entity"
 projects[uuid_features][version] = "1.x-dev"
 projects[] = "date"
 projects[] = "calendar"
+projects[] = "feeds"
 
 ; Custom themes and features ======================================================================
 
