@@ -33,7 +33,8 @@ projects[uuid_features][version] = "1.x-dev"
 projects[] = "date"
 projects[] = "calendar"
 projects[] = "feeds"
-
+projects[] = "transliteration"
+projects[] = "job_scheduler"
 ; Custom themes and features ======================================================================
 
 projects[skeidgnup_theme][type] = "theme"
