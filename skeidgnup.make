@@ -38,6 +38,11 @@ projects[] = "job_scheduler"
 projects[] = "workbench"
 projects[] = "workbench_media"
 projects[] = "panels_breadcrumbs"
+projects[edit][version] = "1.x-dev"
+projcets[] = "l10n_update"
+projects[] = "l10n_client"
+projects[] = "fb_social"
+
 
 ; Custom themes and features ======================================================================
 
