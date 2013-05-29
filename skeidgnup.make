@@ -58,7 +58,7 @@ projects[skeidgnup_app][directory_name] = "skeidgnup_app"
 projects[skeidgnup_app][download][type] = "git"
 projects[skeidgnup_app][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_app.git"
 projects[skeidgnup_app][branch] = "master"
-projects[skeidgnup_app][location] = "http://fserver.dropar.net"
+
 ; Libraries ======================================================================
 
 ; Flexslider
