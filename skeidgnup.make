@@ -42,6 +42,7 @@ projects[edit][version] = "1.x-dev"
 projcets[] = "l10n_update"
 projects[] = "l10n_client"
 projects[] = "fb_social"
+projects[] = "media"
 
 
 ; Custom themes and features ======================================================================
