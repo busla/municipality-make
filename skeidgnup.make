@@ -43,6 +43,7 @@ projects[] = "l10n_update"
 projects[] = "l10n_client"
 projects[] = "fb_social"
 projects[] = "media"
+projects[] = "profile2"
 
 
 ; Custom themes and features ======================================================================
