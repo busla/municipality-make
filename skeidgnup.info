@@ -41,4 +41,4 @@ dependencies[] = module_filter
 dependencies[] = diff
 dependencies[] = workbench
 dependencies[] = workbench_media
-;dependencies[] = skeidgnup_app
+dependencies[] = skeidgnup_app
