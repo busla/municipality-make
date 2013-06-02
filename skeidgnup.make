@@ -47,7 +47,7 @@ projects[] = "genpass"
 projects[field_collection][version] = "1.x-dev"
 projects[] = "field_group"
 projects[] = "rules"
-projects[] = "mollom"
+projects[] = "honeypot"
 
 ; Custom themes and features ======================================================================
 
