@@ -59,7 +59,8 @@ projects[skeidgnup_app][type] = "module"
 projects[skeidgnup_app][directory_name] = "skeidgnup_app"
 projects[skeidgnup_app][download][type] = "git"
 projects[skeidgnup_app][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_app.git"
-projects[skeidgnup_app][branch] = "less_problem"
+projects[skeidgnup_app][branch] = "master"
+projects[skeidgnup_app][tag] = "7.x-1.0-alpha5"
 
 ; Libraries ======================================================================
 
