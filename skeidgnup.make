@@ -46,6 +46,7 @@ projects[] = "media"
 projects[] = "genpass"
 projects[field_collection][version] = "1.x-dev"
 projects[] = "field_group"
+projects[] = "rules"
 
 ; Custom themes and features ======================================================================
 
