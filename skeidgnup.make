@@ -42,12 +42,13 @@ projects[edit][version] = "1.x-dev"
 projects[] = "l10n_update"
 projects[] = "l10n_client"
 projects[] = "fb_social"
-projects[] = "media"
+projects[media][version] = "2.x-dev"
 projects[] = "genpass"
 projects[field_collection][version] = "1.x-dev"
 projects[] = "field_group"
 projects[] = "rules"
 projects[] = "honeypot"
+projects[menu_attributes][version] = "1.x-dev"
 
 ; Custom themes and features ======================================================================
 
