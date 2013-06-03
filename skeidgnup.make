@@ -50,6 +50,7 @@ projects[] = "rules"
 projects[] = "honeypot"
 projects[menu_attributes][version] = "1.x-dev"
 projects[pathauto][version] = "1.x-dev"
+projects[link][version] = "1.x-dev"
 
 ; Custom themes and features ======================================================================
 
