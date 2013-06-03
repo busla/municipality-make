@@ -52,6 +52,7 @@ projects[menu_attributes][version] = "1.x-dev"
 projects[pathauto][version] = "1.x-dev"
 projects[link][version] = "1.x-dev"
 projects[] = "dropbox"
+projects[] = "token"
 
 ; Custom themes and features ======================================================================
 
