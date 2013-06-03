@@ -52,6 +52,8 @@ projects[menu_attributes][version] = "1.x-dev"
 projects[pathauto][version] = "1.x-dev"
 projects[link][version] = "1.x-dev"
 projects[] = "token"
+projects[] = "colorbox"
+projects[modal_forms][version] = "1.x-dev"
 
 ; Custom themes and features ======================================================================
 
@@ -97,6 +99,12 @@ libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[jquery.cycle][download][filename] = "jquery.cycle.all.min.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
+; Colorbox
+libraries[colorbox][type] = "library"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
+libraries[colorbox][directory_name] = "colorbox"
 
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][download][type] = "file"
