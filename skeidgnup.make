@@ -54,7 +54,8 @@ projects[link][version] = "1.x-dev"
 projects[] = "token"
 projects[] = "colorbox"
 projects[modal_forms][version] = "1.x-dev"
-projects[quicktabs][version] = "3.x-dev" 
+projects[quicktabs][version] = "3.x-dev"
+projects[quicktabs][patch][] = "https://drupal.org/files/missing-ampersand-for-tab-creation.patch" 
 
 ; Custom themes and features ======================================================================
 
