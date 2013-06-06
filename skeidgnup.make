@@ -8,7 +8,7 @@ projects[] = "admin_menu"
 projects[ctools][version] = "1.x-dev"
 projects[] = "devel"
 projects[] = "entity_view_mode"
-projects[] = "file_entity"
+projects[file_entity][version] = "2.x-dev"
 projects[] = "flexslider"
 projects[] = "flexslider_views_slideshow"
 projects[] = "imagefield_crop"
@@ -56,7 +56,7 @@ projects[] = "colorbox"
 projects[modal_forms][version] = "1.x-dev"
 projects[quicktabs][version] = "3.x-dev"
 projects[quicktabs][patch][] = "https://drupal.org/files/missing-ampersand-for-tab-creation.patch" 
-
+projects[] = "media_colorbox"
 ; Custom themes and features ======================================================================
 
 projects[skeidgnup_theme][type] = "theme"
