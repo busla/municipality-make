@@ -77,7 +77,7 @@ projects[skeidgnup_theme][download][url] = "aegir@kropotkin:/var/aegir/git/skeid
 projects[skeidgnup_theme][branch] = "master"
 
 projects[skeidgnup_all][type] = "module"
-projects[skeidgnup_all][directory_name] = "skeidgnup_all	"
+projects[skeidgnup_all][directory_name] = "skeidgnup_all"
 projects[skeidgnup_all][subdir] = "apps"
 projects[skeidgnup_all][download][type] = "git"
 projects[skeidgnup_all][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_apps.git"
