@@ -84,12 +84,12 @@ projects[skeidgnup_theme][download][type] = "git"
 projects[skeidgnup_theme][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_theme.git"
 projects[skeidgnup_theme][branch] = "master"
 
-projects[skeidgnup_all][type] = "module"
-projects[skeidgnup_all][directory_name] = "skeidgnup_all"
-projects[skeidgnup_all][subdir] = "apps"
-projects[skeidgnup_all][download][type] = "git"
-projects[skeidgnup_all][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_app.git"
-projects[skeidgnup_all][branch] = "master"
+projects[skeidgnup_app][type] = "module"
+projects[skeidgnup_app][directory_name] = "skeidgnup_app"
+projects[skeidgnup_app][subdir] = "apps"
+projects[skeidgnup_app][download][type] = "git"
+projects[skeidgnup_app][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_app.git"
+projects[skeidgnup_app][branch] = "master"
 
 ; Libraries ======================================================================
 
