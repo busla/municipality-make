@@ -68,6 +68,14 @@ projects[quicktabs][version] = "3.x-dev"
 projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][patch][] = "https://drupal.org/files/missing-ampersand-for-tab-creation.patch" 
 projects[media_colorbox][subdir] = "contrib"
+projects[media_browser_plus][version] = "3.x-dev"
+projects[media_browser_plus][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.x-dev"
+projects[views_bulk_operations][subdir] = "contrib"
+projects[multiform][subdir] = "contrib" 
+
+projects[views_tree][subdir] = "contrib"
+
 ; Custom themes and features ======================================================================
 
 projects[skeidgnup_theme][type] = "theme"
@@ -80,7 +88,7 @@ projects[skeidgnup_all][type] = "module"
 projects[skeidgnup_all][directory_name] = "skeidgnup_all"
 projects[skeidgnup_all][subdir] = "apps"
 projects[skeidgnup_all][download][type] = "git"
-projects[skeidgnup_all][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_apps.git"
+projects[skeidgnup_all][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_app.git"
 projects[skeidgnup_all][branch] = "master"
 
 ; Libraries ======================================================================
