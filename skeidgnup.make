@@ -8,7 +8,6 @@ projects[ctools][version] = "1.x-dev"
 projects[ctools][subdir] = "contrib"
 projects[devel][subdir] = "contrib"
 projects[entity_view_mode][subdir] = "contrib"
-projects[file_entity][version] = "2.0"
 projects[file_entity][subdir] = "contrib"
 
 projects[flexslider][subdir] = "contrib"
