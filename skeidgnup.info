@@ -35,7 +35,8 @@ dependencies[] = menu
 dependencies[] = page_manager
 dependencies[] = strongarm
 dependencies[] = text
-
+dependencies[] = feeds
+dependencies[] = feeds_ui
 dependencies[] = module_filter
 dependencies[] = diff
 
