@@ -72,9 +72,9 @@ projects[media_browser_plus][version] = "3.x-dev"
 projects[media_browser_plus][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.x-dev"
 projects[views_bulk_operations][subdir] = "contrib"
-projects[multiform][subdir] = "contrib" 
-
+projects[multiform][subdir] = "contrib"
 projects[views_tree][subdir] = "contrib"
+projects[menu_rules][subdir] = "contrib"
 
 ; Custom themes and features ======================================================================
 
@@ -105,6 +105,13 @@ libraries[lessphp][download][type] = "file"
 libraries[lessphp][download][url] = "http://leafo.net/lessphp/src/lessphp-0.3.9.tar.gz"
 libraries[lessphp][directory_name] = "lessphp"
 
+; qtip
+libraries[qtip][type] = "library"
+libraries[qtip][download][type] = "git"
+libraries[qtip][download][url] = "https://github.com/Craga89/qTip1/tree/master/1.0.0-rc3"
+libraries[qtip][directory_name] = "qtip"
+libraries[qtip][branch] = "master"
+
 
 ; Bootstrap library
 libraries[bootstrap][type] = "library"
@@ -131,6 +138,8 @@ libraries[ckeditor][type] = "library"
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.1/ckeditor_4.1.1_full.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+
 
 
 
