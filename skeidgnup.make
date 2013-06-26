@@ -105,12 +105,6 @@ libraries[lessphp][download][type] = "file"
 libraries[lessphp][download][url] = "http://leafo.net/lessphp/src/lessphp-0.3.9.tar.gz"
 libraries[lessphp][directory_name] = "lessphp"
 
-; qtip
-libraries[qtip][type] = "library"
-libraries[qtip][download][type] = "git"
-libraries[qtip][download][url] = "https://github.com/Craga89/qTip1/tree/master/1.0.0-rc3"
-libraries[qtip][directory_name] = "qtip"
-libraries[qtip][branch] = "master"
 
 
 ; Bootstrap library
