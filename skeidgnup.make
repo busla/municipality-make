@@ -75,6 +75,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[multiform][subdir] = "contrib"
 projects[views_tree][subdir] = "contrib"
 projects[menu_rules][subdir] = "contrib"
+projects[fancybox][subdir] = "contrib"
 
 ; Custom themes and features ======================================================================
 
@@ -133,8 +134,11 @@ libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.1/ckeditor_4.1.1_full.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-
-
+; Fancybox
+libraries[fancybox][type] = "library"
+libraries[fancybox][download][type] = "file"
+libraries[fancybox][download][url] = "https://github.com/fancyapps/fancyBox/zipball/v2.1.5"
+libraries[fancybox][directory_name] = "fancybox"
 
 
 ; Themes ======================================================================
