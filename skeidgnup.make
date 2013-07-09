@@ -76,6 +76,7 @@ projects[multiform][subdir] = "contrib"
 projects[views_tree][subdir] = "contrib"
 projects[menu_rules][subdir] = "contrib"
 projects[fancybox][subdir] = "contrib"
+projects[fancybox][patch][] = "https://drupal.org/files/i1933596-47.patch"
 
 ; Custom themes and features ======================================================================
 
