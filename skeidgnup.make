@@ -106,7 +106,7 @@ libraries[flexslider][branch] = "master"
 ; LESSphp
 libraries[lessphp][type] = "library"
 libraries[lessphp][download][type] = "file"
-libraries[lessphp][download][url] = "http://leafo.net/lessphp/src/lessphp-0.3.9.tar.gz"
+libraries[lessphp][download][url] = "aegir@kropotkin:/var/aegir/mirror/lessphp-0.3.9.tar.gz"
 libraries[lessphp][directory_name] = "lessphp"
 
 
@@ -132,6 +132,7 @@ libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 libraries[colorbox][directory_name] = "colorbox"
 
+; Ckeditor
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.1/ckeditor_4.1.1_full.zip"
@@ -143,6 +144,11 @@ libraries[fancybox][download][type] = "file"
 libraries[fancybox][download][url] = "https://github.com/fancyapps/fancyBox/zipball/v2.1.5"
 libraries[fancybox][directory_name] = "fancybox"
 
+; Plupload
+libraries[plupload][type] = "library"
+libraries[plupload][download][type] = "file"
+libraries[plupload][download][url] = "http://plupload.com/downloads/plupload_1_5_7.zip"
+libraries[plupload][directory_name] = "plupload"
 
 ; Themes ======================================================================
 
