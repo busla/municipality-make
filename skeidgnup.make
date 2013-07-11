@@ -10,6 +10,8 @@ projects[devel][subdir] = "contrib"
 projects[entity_view_mode][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable7"
 projects[file_entity][subdir] = "contrib"
+projects[media_gallery][version] = "2.x-dev"
+projects[media_gallery][subdir] = "contrib"
 
 projects[flexslider][subdir] = "contrib"
 projects[flexslider_views_slideshow][subdir] = "contrib"
