@@ -116,8 +116,8 @@ libraries[flexslider][branch] = "master"
 
 ; LESSphp
 libraries[lessphp][type] = "library"
-libraries[lessphp][download][type] = "git"
-libraries[lessphp][download][url] = "https://github.com/leafo/lessphp"
+libraries[lessphp][download][type] = "file"
+libraries[lessphp][download][url] = "aegir@kropotkin:/var/aegir/mirror/lessphp-0.3.9.tar.gz"
 libraries[lessphp][directory_name] = "lessphp"
 
 
