@@ -15,7 +15,7 @@ projects[media_gallery][subdir] = "contrib"
 projects[flexslider][subdir] = "contrib"
 projects[flexslider_views_slideshow][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
-projects[less][version] = "3.x-dev"
+;projects[less][version] = "3.x-dev"
 projects[less][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
 projects[manual-crop][subdir] = "contrib"
@@ -115,10 +115,10 @@ libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][branch] = "master"
 
 ; LESSphp
-libraries[lessphp][type] = "library"
-libraries[lessphp][download][type] = "file"
-libraries[lessphp][download][url] = "aegir@kropotkin:/var/aegir/mirror/lessphp-0.3.9.tar.gz"
-libraries[lessphp][directory_name] = "lessphp"
+;libraries[lessphp][type] = "library"
+;libraries[lessphp][download][type] = "file"
+;libraries[lessphp][download][url] = "aegir@kropotkin:/var/aegir/mirror/lessphp-0.3.9.tar.gz"
+;libraries[lessphp][directory_name] = "lessphp"
 
 
 
