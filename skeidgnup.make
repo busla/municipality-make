@@ -90,6 +90,14 @@ projects[shs][versions] = "1.x-dev"
 projects[shs][subdir] = "contrib"
 projects[special_menu_items][version] = "2.x-dev"
 projects[special_menu_items][subdir] = "contrib"
+projects[date_repeat_instance][version] = "1.x-dev"
+projects[date_repeat_instance][subdir] = "contrib"
+projects[plup][subdir] = "contrib"
+projects[fancybox][subdir] = "contrib"
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][version] = "2.x-dev"
+projects[editableviews][subdir] = "contrib"
+projects[editableviews][version] = "2.x-dev"
 
 ; Custom themes and features ======================================================================
 
@@ -160,6 +168,14 @@ libraries[plupload][type] = "library"
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "http://plupload.com/downloads/plupload_1_5_7.zip"
 libraries[plupload][directory_name] = "plupload"
+
+;Mupload
+projects[mupload][type] = "module"
+projects[mupload][subdir] = "apps"
+projects[mupload][download][type] = "git"
+projects[mupload][download][url] = "http://git.drupal.org/sandbox/vingborg/1138512.git"
+projects[mupload][branch] = "master"
+
 
 ; Themes ======================================================================
 
