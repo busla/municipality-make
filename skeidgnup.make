@@ -170,7 +170,7 @@ libraries[plupload][directory_name] = "plupload"
 
 ;Mupload
 projects[mupload][type] = "module"
-projects[mupload][subdir] = "apps"
+projects[mupload][subdir] = "apps/skeidgnup_app/skeidgnup_app"
 projects[mupload][download][type] = "git"
 projects[mupload][download][url] = "http://git.drupal.org/sandbox/vingborg/1138512.git"
 projects[mupload][branch] = "master"
