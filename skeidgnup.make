@@ -96,7 +96,7 @@ projects[fancybox][subdir] = "contrib"
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.x-dev"
 projects[editableviews][subdir] = "contrib"
-projects[editableviews][version] = "2.x-dev"
+projects[editableviews][version] = "1.x-dev"
 
 ; Custom themes and features ======================================================================
 
