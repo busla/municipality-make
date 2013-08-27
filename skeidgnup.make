@@ -97,6 +97,8 @@ projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.x-dev"
 projects[editableviews][subdir] = "contrib"
 projects[editableviews][version] = "1.x-dev"
+projects[auto_username][subdir] = "contrib"
+projects[auto_username][version] = "1.x-dev"
 
 ; Custom themes and features ======================================================================
 
@@ -170,8 +172,9 @@ libraries[plupload][directory_name] = "plupload"
 
 ;Mupload
 projects[mupload][type] = "module"
-projects[mupload][subdir] = "apps/skeidgnup_app/skeidgnup_app"
+projects[mupload][subdir] = "contrib"
 projects[mupload][download][type] = "git"
+projects[mupload][overwrite] = "TRUE"
 projects[mupload][download][url] = "http://git.drupal.org/sandbox/vingborg/1138512.git"
 projects[mupload][branch] = "master"
 
