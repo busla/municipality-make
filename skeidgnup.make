@@ -178,6 +178,7 @@ libraries[plupload][directory_name] = "plupload"
 ;Mupload
 projects[mupload][type] = "module"
 projects[mupload][subdir] = "contrib"
+projects[mupload][directory_name] = "mupload"
 projects[mupload][download][type] = "git"
 projects[mupload][overwrite] = "TRUE"
 projects[mupload][download][url] = "http://git.drupal.org/sandbox/vingborg/1138512.git"
