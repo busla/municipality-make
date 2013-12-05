@@ -178,5 +178,4 @@ projects[facebook-php-sdk][branch] = "master"
 
 ;projects[] = "tao"
 ;projects[] = "rubik"
-projects[] = "bootstrap"
 projects[] = "adminimal_theme"
