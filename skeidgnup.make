@@ -104,6 +104,7 @@ projects[fblikebutton][subdir] = "contrib"
 projects[fb_autopost][version] = "1.x-dev"
 projects[fb_autopost][subdir] = "contrib"
 projects[menu_breadcrumb][subdir] = "contrib"
+projects[pathauto_persist][subdir] = "contrib"
 
 ; Custom themes and features ======================================================================
 
@@ -184,6 +185,12 @@ projects[mupload][overwrite] = "TRUE"
 projects[mupload][download][url] = "http://git.drupal.org/sandbox/vingborg/1138512.git"
 projects[mupload][branch] = "master"
 
+;Facebook SDK
+projects[facebook-php-sdk][type] = "library"
+projects[facebook-php-sdk][download][type] = "git"
+projects[facebook-php-sdk][download][url] = "https://github.com/facebook/facebook-php-sdk"
+projects[facebook-php-sdk][directory_name] = "facebook-php-sdk"
+projects[facebook-php-sdk][branch] = "master"
 
 ; Themes ======================================================================
 
