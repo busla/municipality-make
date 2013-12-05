@@ -72,7 +72,7 @@ function skeidgnup_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'skeidgnup_theme');
+  $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'rubik';
   $blocks = array(
     array(
@@ -235,9 +235,9 @@ function skeidgnup_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'rubik')
+    ->condition('name', 'adminimal_theme')
     ->execute();
-  variable_set('admin_theme', 'rubik');
+  variable_set('admin_theme', 'adminimal_theme');
   variable_set('node_admin_theme', '1');
 
     
