@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 ; Modules =====================================================================
-projects[bootstrap] = "contrib"
+projects[bootstrap][subdir] = "contrib"
 ;projects[admin][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
 ;projects[ctools][version] = "1.x-dev"
