@@ -1,5 +1,5 @@
-api = 2
 core = 7.x
+api = 2
 
 ; Modules =====================================================================
 projects[bootstrap][subdir] = "contrib"
@@ -48,7 +48,7 @@ projects[panels_breadcrumbs][subdir] = "contrib"
 projects[edit][subdir] = "contrib"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_client][subdir] = "contrib"
-;projects[media][version] = "2.0-unstable7"
+projects[media][version] = "2.0-alpha3"
 projects[media][subdir] = "contrib"
 ;projects[genpass][subdir] = "contrib"
 ;projects[field_collection][version] = "1.x-dev"
