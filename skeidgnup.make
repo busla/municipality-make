@@ -2,7 +2,6 @@ core = 7.x
 api = 2
 
 ; Modules =====================================================================
-projects[bootstrap]
 projects[drupal_ipsum][subdir] = "contrib"
 ;projects[admin][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
@@ -191,3 +190,4 @@ projects[facebook-php-sdk][branch] = "master"
 ;projects[] = "tao"
 ;projects[] = "rubik"
 projects[] = "adminimal_theme"
+projects[] = "bootstrap"
