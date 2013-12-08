@@ -2,7 +2,8 @@ core = 7.x
 api = 2
 
 ; Modules =====================================================================
-projects[bootstrap][subdir] = "contrib"
+projects[bootstrap]
+projects[drupal_ipsum][subdir] = "contrib"
 ;projects[admin][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
 ;projects[ctools][version] = "1.x-dev"

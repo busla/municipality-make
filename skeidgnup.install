@@ -13,7 +13,6 @@
  */
 
 function skeidgnup_install() {
-// Add text formats.
 
  // Add text formats.
   $filtered_html_format = array(
@@ -72,8 +71,8 @@ function skeidgnup_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'rubik';
+  $default_theme = variable_get('theme_default', 'skeidgnup_theme');
+  $admin_theme = 'adminimal';
   $blocks = array(
     array(
       'module' => 'system',
@@ -196,12 +195,13 @@ function skeidgnup_install() {
       'cache' => -1,
     ),
   );
+  
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($blocks as $block) {
     $query->values($block);
   }
   $query->execute();
-
+  
  
   // Enable user picture support and set the default to a square thumbnail option.
   variable_set('user_pictures', '1');
