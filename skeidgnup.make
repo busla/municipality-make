@@ -110,6 +110,17 @@ projects[fb_autopost][subdir] = "contrib"
 
 ; Custom themes and features ======================================================================
 
+projects[skeidgnup_theme][type] = "theme"
+projects[skeidgnup_theme][directory_name] = "skeidgnup_theme"
+projects[skeidgnup_theme][download][type] = "git"
+projects[skeidgnup_theme][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_theme.git"
+projects[skeidgnup_theme][branch] = "master"
+
+projects[skeidgnup_app][type] = "module"
+projects[skeidgnup_app][subdir] = "apps"
+projects[skeidgnup_app][download][type] = "git"
+projects[skeidgnup_app][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_app.git"
+projects[skeidgnup_app][branch] = "master"
 
 ; Libraries ======================================================================
 
