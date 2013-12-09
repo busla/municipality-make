@@ -112,7 +112,7 @@ projects[fb_autopost][subdir] = "contrib"
 projects[skeidgnup_theme][type] = "theme"
 projects[skeidgnup_theme][directory_name] = "skeidgnup_theme"
 projects[skeidgnup_theme][download][type] = "git"
-projects[skeidgnup_theme][download][url] = "aegir@kropotkin:/var/aegir/git/skeidgnup/skeidgnup_theme.git"
+projects[skeidgnup_theme][download][url] = "https://github.com/busla/skeidgnup-theme.git"
 projects[skeidgnup_theme][branch] = "master"
 
 projects[skeidgnup_app][type] = "module"
