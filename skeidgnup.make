@@ -116,7 +116,7 @@ projects[skeidgnup_theme][download][url] = "https://github.com/busla/skeidgnup-t
 projects[skeidgnup_theme][branch] = "master"
 
 projects[skeidgnup_app][type] = "module"
-projects[skeidgnup_app][subdir] = "skeidgnup"
+projects[skeidgnup_app][subdir] = "custom"
 projects[skeidgnup_app][download][type] = "git"
 projects[skeidgnup_app][download][url] = "https://github.com/busla/skeidgnup-features.git"
 projects[skeidgnup_app][branch] = "master"
