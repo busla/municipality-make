@@ -18,3 +18,5 @@ function skeidgnup_form_install_configure_form_alter(&$form, $form_state) {
   $form['admin_account']['account']['name']['#default_value'] = 'nonni';
   $form['admin_account']['account']['mail']['#default_value'] = 'levito@gmail.com';
 }
+
+     

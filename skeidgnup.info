@@ -39,4 +39,6 @@ dependencies[] = feeds
 dependencies[] = feeds_ui
 dependencies[] = module_filter
 dependencies[] = diff
-
+dependencies[] = skeidgnup_app
+dependencies[] = skeidgnup_demo_content
+dependencies[] = drupal_ipsum
