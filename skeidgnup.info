@@ -42,3 +42,4 @@ dependencies[] = diff
 dependencies[] = skeidgnup_app
 dependencies[] = skeidgnup_demo_content
 dependencies[] = drupal_ipsum
+dependencies[] = jquery_update
