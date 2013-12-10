@@ -134,7 +134,7 @@ libraries[flexslider][branch] = "master"
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v3.0.2.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
-libraries[bootstrap][destination] = "skeidgnup_theme/bootstrap"
+libraries[bootstrap][destination] = "themes/skeidgnup_theme"
 libraries[bootstrap][overwrite] = TRUE
 
 ; jQuery Cycle

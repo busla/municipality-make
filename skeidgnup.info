@@ -43,3 +43,7 @@ dependencies[] = skeidgnup_app
 dependencies[] = skeidgnup_demo_content
 dependencies[] = drupal_ipsum
 dependencies[] = jquery_update
+dependencies[] = panels
+dependencies[] = panels_ipe
+dependencies[] = views
+dependencies[] = views_ui
