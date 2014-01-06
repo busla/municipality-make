@@ -11,9 +11,9 @@
  */
  
 
-function skeidgnup_form_install_configure_form_alter(&$form, $form_state) {
+function municipality_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name with the server name.
-  $form['site_information']['site_name']['#default_value'] = 'Skeiða- og Gnúpverjahreppur';
+  $form['site_information']['site_name']['#default_value'] = 'Hreppur';
   $form['site_information']['site_mail']['#default_value'] = 'levito@gmail.com';
   $form['admin_account']['account']['name']['#default_value'] = 'nonni';
   $form['admin_account']['account']['mail']['#default_value'] = 'levito@gmail.com';

@@ -12,7 +12,7 @@
  * @see system_install()
  */
 
-function skeidgnup_install() {
+function municipality_install() {
   // Set the default and admin themes
   variable_set('theme_default', 'skeidgnup_theme');
   variable_set('admin_theme', 'adminimal');

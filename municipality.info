@@ -1,6 +1,6 @@
 name = Hreppur
 core = 7.x
-description = Sérsniðið Drupal vefkerfi fyrir sveitastjórnir
+description = Drupal útgáfa fyrir sveitarfélög
 
 ; Standard ===================================================================
 dependencies[] = block
