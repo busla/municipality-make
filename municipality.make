@@ -110,6 +110,8 @@ projects[location][subdir] = "contrib"
 projects[relation][subdir] = "contrib"
 projects[relation_add][subdir] = "contrib"
 ;projects[relation_add][patch][] = "https://drupal.org/files/location-fix-location-cck-tokens-notices-2119967-4.patch"
+projects[gmap][subdir] = "contrib"
+projects[taxonomy_menu][subdir] = "contrib"
 
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
 projects[bootstrap_panels_horizontal_tabs][directory_name] = "bootstrap_panels_horizontal_tabs"
