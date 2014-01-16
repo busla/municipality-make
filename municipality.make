@@ -137,7 +137,11 @@ projects[municipality_app][download][type] = "git"
 projects[municipality_app][download][url] = "https://github.com/busla/municipality-app.git"
 projects[municipality_app][branch] = "master"
 
-projects[skeidgnup_migrate][location] = http://fserver.dropar.net/fserver
+projects[skeidgnup_migrate][type] = "module"
+projects[skeidgnup_migrate][subdir] = "custom"
+projects[skeidgnup_migrate][download][type] = "git"
+projects[skeidgnup_migrate][download][url] = "https://github.com/busla/skeidgnup-migrate.git"
+projects[skeidgnup_migrate][branch] = "master"
 
 ; Libraries ======================================================================
 
