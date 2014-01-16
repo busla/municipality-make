@@ -137,6 +137,8 @@ projects[municipality_app][download][type] = "git"
 projects[municipality_app][download][url] = "https://github.com/busla/municipality-app.git"
 projects[municipality_app][branch] = "master"
 
+projects[skeidgnup_migrate][location] = http://fserver.dropar.net/fserver
+
 ; Libraries ======================================================================
 
 ; Flexslider
