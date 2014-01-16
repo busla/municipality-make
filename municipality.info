@@ -62,4 +62,3 @@ dependencies[] = date_views
 dependencies[] = relation
 dependencies[] = relation_ui
 dependencies[] = relation_add
-dependencies[] = municipality_terms
