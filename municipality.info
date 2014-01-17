@@ -62,3 +62,6 @@ dependencies[] = date_views
 dependencies[] = relation
 dependencies[] = relation_ui
 dependencies[] = relation_add
+dependencies[] = workbench
+dependencies[] = workbench_media
+dependencies[] = views_limit_grouping

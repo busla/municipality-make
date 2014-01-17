@@ -19,6 +19,215 @@ function municipality_install() {
   variable_set('node_admin_theme', '1');
   theme_enable(array('skeidgnup_theme'));
   
+  // bý til flokka og merkingar.
+  $vocabularies = array(
+    array(
+      'name' => t('Flokkur'),
+      'machine_name' => 'category',
+      'description' => t('Flokkar fyrir valmynd.'),
+    ),
+    array(
+      'name' => t('Nefnd'),
+      'machine_name' => 'committee',
+      'description' => t('Nefndir sem skipaðar eru af sveitastjórn.'),
+    ),
+    array(
+      'name' => t('Listi'),
+      'machine_name' => 'party',
+      'description' => t('Listar fulltrúa sveitastjórnar.'),
+    ),
+    array(
+      'name' => t('Myndir'),
+      'machine_name' => 'photos',
+      'description' => t('Merkingar á myndir.'),
+    ),
+    array(
+      'name' => t('Starfsheiti'),
+      'machine_name' => 'role',
+      'description' => t('Starfsheiti starfsmanna hreppsins og hlutverk fulltrúa í sveitastjórn.'),
+    ),    
+    array(
+      'name' => t('Stillingar'),
+      'machine_name' => 'settings',
+      'description' => t('Auka upplýsingar um færsluna.'),
+    ),    
+
+  );
+  
+  foreach ($vocabularies as $v) { 
+    $vocabulary = (object) $v;
+    taxonomy_vocabulary_save($vocabulary);
+  }
+  
+  $vocab_settings = taxonomy_vocabulary_machine_name_load('settings');
+  $vocab_category = taxonomy_vocabulary_machine_name_load('category');
+  $vocab_committee = taxonomy_vocabulary_machine_name_load('committee');
+
+  $terms = array(
+          array(
+            'name' => t('Fésið'),
+            'vid' => $vocab_settings->vid,            
+          ),
+          array(
+            'name' => t('Laus störf'),
+            'vid' => $vocab_settings->vid,
+          ),
+          array(
+            'name' => t('Fréttabréf'),
+            'vid' => $vocab_settings->vid,
+          ),
+          array(
+            'name' => t('Viðburður'),
+            'vid' => $vocab_settings->vid,
+          ),        
+          array(
+            'name' => t('Forsíða'),
+            'vid' => $vocab_settings->vid,
+          ),
+          array(
+            'name' => t('Fréttir'),
+            'vid' => $vocab_category->vid, 
+            'weight' => 0,
+          ),
+          array(
+            'name' => t('Stjórnkerfið'),
+            'vid' => $vocab_category->vid,
+            'weight' => 1,            
+              'children' => array(
+                array('name' => t('Yfirlit'), 'weight' => -1,),
+                array('name' => t('Sveitastjórn')),
+                array('name' => t('Nefndir')),
+                array('name' => t('Fundargerðir')),            
+              ),
+          ),
+          array(
+            'name' => t('Þjónusta'),
+            'vid' => $vocab_category->vid,
+            'weight' => 2,            
+              'children' => array(
+                array('name' => t('Yfirlit'), 'weight' => -1,),
+              ),
+          ),
+          array(
+            'name' => t('Athyglisvert'),
+            'vid' => $vocab_category->vid,
+            'weight' => 3,            
+              'children' => array(
+                array('name' => t('Yfirlit'), 'weight' => -1,),
+              ),            
+          ),
+          array(
+            'name' => t('Hreppsnefnd'),
+            'vid' => $vocab_committee->vid,
+            ),      
+          array(
+            'name' => t('Skólanefnd'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Umhverfisnefnd'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Almannavarnanefnd'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Skipulags og byggingarnefnd'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Brunavarnarnefnd'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Hússtjórn Þjóðveldisbæjar'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Landsþing SÍS'),
+            'vid' => $vocab_committee->vid,
+          ), 
+          array(
+            'name' => t('Ráðgjafanefnd um friðun Þjórsárvera'),
+            'vid' => $vocab_committee->vid,
+          ),
+          array(
+            'name' => t('Fræðslunefnd Flúðaskóla'),
+            'vid' => $vocab_committee->vid,
+          ),         
+          array(
+            'name' => t('Atvinnu, fjarskipta og samgöngunefnd'),
+            'vid' => $vocab_committee->vid,
+          ),         
+          array(
+            'name' => t('Menningar, æskulýðs, velferðar- og jafnréttisnefnd'),
+            'vid' => $vocab_committee->vid,
+          ),         
+          array(
+            'name' => t('Afréttarnefnd Gnúpverjaafréttar'),
+            'vid' => $vocab_committee->vid,
+          ),         
+          array(
+            'name' => t('Kjörstjórn'),
+            'vid' => $vocab_committee->vid,
+          ),         
+          array(
+            'name' => t('Félagsmálanefnd'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Skoðunarmenn hreppsreikninga'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Aðalfundur SASS'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Aðalfundur Heilbrigðiseftirlits Suðurlands'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Aðalfundur Skólaskrifstofu Suðurlands'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Sorpstöð Suðurlands'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Aðrar nefndir'),
+            'vid' => $vocab_committee->vid,
+          ),        
+          array(
+            'name' => t('Slæður'),
+            'vid' => $vocab_settings->vid,
+          ),        
+
+  );
+  
+    $child_list = array();
+    foreach ($terms as $t) { 
+      $t['description'] = 'Breyttu þessum texta með því að færa músina yfir á tannhjólið hægra meginn og smella á "Breyta"';
+      $term = (object) $t;
+      taxonomy_term_save($term);
+          if (!empty($t['children'])) {
+            foreach ($t['children'] as $c) {
+              $c['parent'] = $term->tid;
+              $c['vid'] = $term->vid;
+              $c['description'] = $term->description;
+              $child = (object) $c;
+              taxonomy_term_save($child);         
+            }
+          }
+    }
+   /* 
+    foreach($child_list as $child) {
+      $child = (object) $child;
+      taxonomy_term_save($child);
+    }    
+    */  
  // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -240,6 +449,8 @@ function municipality_install() {
   // Set jquery version
   variable_set('jquery_update_jquery_cdn', 'google');
   variable_set('jquery_update_jquery_version', '1.7');
+  
+  
 
 }
 
