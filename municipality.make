@@ -117,6 +117,7 @@ projects[migrate][version] = "2.x-dev"
 projects[migrate][subdir] = "contrib"
 projects[path_breadcrumbs][subdir] = "contrib"
 projects[views_limit_grouping][subdir] = "contrib"
+projects[panels_bootstrap_styles][subdir] = "contrib"
 
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
 projects[bootstrap_panels_horizontal_tabs][directory_name] = "fap_panels_horizontal_tabs"

@@ -95,7 +95,6 @@ function municipality_install() {
             'weight' => 1,            
               'children' => array(
                 array('name' => t('Yfirlit'), 'weight' => -1,),
-                array('name' => t('Sveitastjórn')),
                 array('name' => t('Nefndir')),
                 array('name' => t('Fundargerðir')),            
               ),
