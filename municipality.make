@@ -120,6 +120,7 @@ projects[path_breadcrumbs][subdir] = "contrib"
 projects[views_limit_grouping][subdir] = "contrib"
 projects[panels_bootstrap_styles][subdir] = "contrib"
 projects[social_media_links][subdir] = "contrib"
+projects[social_media_links][version] = "1.x-dev"
 projects[features_extra][subdir] = "contrib"
 
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
