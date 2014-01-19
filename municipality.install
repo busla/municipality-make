@@ -429,6 +429,29 @@ function municipality_install() {
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval', $filtered_html_permission));
 
+    //This will generate a random password, you could set your own here
+  $password = user_password(8);
+ 
+  //set up the user fields
+  $fields = array(
+    'name' => 'kidda',
+    'mail' => 'kidda@skeidgnup.is',
+    'pass' => $password,
+    'status' => 1,
+    'init' => 'email address',
+    'roles' => array(
+      DRUPAL_AUTHENTICATED_RID => 'authenticated user',
+    ),
+  );
+ 
+  //the first parameter is left blank so a new user is created
+  $account = user_save('', $fields);
+ 
+  // If you want to send the welcome email, use the following code
+ 
+  // Manually set the password so it appears in the e-mail.
+  $account->password = $fields['pass'];
+ 
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
