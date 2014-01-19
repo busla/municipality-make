@@ -23,7 +23,7 @@ dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
-
+dependencies[] = poll
 
 ; Hreppur ===================================================================
 dependencies[] = admin_menu
@@ -65,3 +65,5 @@ dependencies[] = relation_add
 dependencies[] = workbench
 dependencies[] = workbench_media
 dependencies[] = views_limit_grouping
+dependencies[] = panels_bootstrap_styles
+dependencies[] = contact
