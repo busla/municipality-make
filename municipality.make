@@ -124,6 +124,8 @@ projects[social_media_links][version] = "1.x-dev"
 projects[features_extra][subdir] = "contrib"
 projects[entityqueue][subdir] = "contrib"
 projects[entityqueue][version] = "1.x-dev"
+projects[fb_social][version] = "2.x-dev"
+projects[fb_social][subdir] = "contrib"
 
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
 projects[bootstrap_panels_horizontal_tabs][directory_name] = "fap_panels_horizontal_tabs"
