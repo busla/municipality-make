@@ -75,10 +75,10 @@ projects[media_colorbox][subdir] = "contrib"
 ;projects[media_browser_plus][subdir] = "contrib"
 ;projects[views_bulk_operations][version] = "3.x-dev"
 ;projects[views_bulk_operations][subdir] = "contrib"
-;projects[multiform][subdir] = "contrib"
+projects[multiform][subdir] = "contrib"
 ;projects[views_tree][subdir] = "contrib"
 ;projects[menu_rules][subdir] = "contrib"
-;projects[plupload][subdir] = "contrib"
+projects[plupload][subdir] = "contrib"
 projects[email][version] = "1.x-dev"
 projects[email][subdir] = "contrib"
 ;projects[entityreference][version] = "1.x-dev"
@@ -122,6 +122,8 @@ projects[panels_bootstrap_styles][subdir] = "contrib"
 projects[social_media_links][subdir] = "contrib"
 projects[social_media_links][version] = "1.x-dev"
 projects[features_extra][subdir] = "contrib"
+projects[entityqueue][subdir] = "contrib"
+projects[entityqueue][version] = "1.x-dev"
 
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
 projects[bootstrap_panels_horizontal_tabs][directory_name] = "fap_panels_horizontal_tabs"
@@ -152,26 +154,12 @@ projects[skeidgnup_migrate][branch] = "master"
 
 ; Libraries ======================================================================
 
-; Flexslider
-;libraries[flexslider][type] = "library"
-;libraries[flexslider][download][type] = "git"
-;libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider.git"
-;libraries[flexslider][directory_name] = "flexslider"
-;libraries[flexslider][branch] = "master"
-
 ; Bootstrap 3.0.3
 libraries[bootstrap][download][type] = "get"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v3.0.3.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][destination] = "themes/skeidgnup_theme"
 libraries[bootstrap][overwrite] = TRUE
-
-; jQuery Cycle
-;libraries[jquery.cycle][type] = "library"
-;libraries[jquery.cycle][download][type] = "file"
-;libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
-;libraries[jquery.cycle][download][filename] = "jquery.cycle.all.min.js"
-;libraries[jquery.cycle][directory_name] = "jquery.cycle"
 
 ; Colorbox
 libraries[colorbox][type] = "library"
@@ -185,26 +173,13 @@ libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3/ckeditor_4.3_full.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-; Fancybox
-;libraries[fancybox][type] = "library"
-;libraries[fancybox][download][type] = "file"
-;libraries[fancybox][download][url] = "https://github.com/fancyapps/fancyBox/zipball/v2.1.5"
-;libraries[fancybox][directory_name] = "fancybox"
 
 ; Plupload
-;libraries[plupload][type] = "library"
-;libraries[plupload][download][type] = "file"
-;libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v2.0.0.zip"
-;libraries[plupload][directory_name] = "plupload"
+libraries[plupload][type] = "library"
+libraries[plupload][download][type] = "file"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+libraries[plupload][directory_name] = "plupload"
 
-;Mupload
-;projects[mupload][type] = "module"
-;projects[mupload][subdir] = "contrib"
-;projects[mupload][directory_name] = "mupload"
-;projects[mupload][download][type] = "git"
-;projects[mupload][overwrite] = "TRUE"
-;projects[mupload][download][url] = "http://git.drupal.org/sandbox/vingborg/1138512.git"
-;projects[mupload][branch] = "master"
 
 ;Facebook SDK
 projects[facebook-php-sdk][type] = "library"

@@ -51,6 +51,11 @@ function municipality_install() {
       'machine_name' => 'settings',
       'description' => t('Auka upplýsingar um færsluna.'),
     ),    
+    array(
+      'name' => t('Skrár'),
+      'machine_name' => 'files',
+      'description' => t('Merkingar á skrár'),
+    ),    
 
   );
   
@@ -62,7 +67,8 @@ function municipality_install() {
   $vocab_settings = taxonomy_vocabulary_machine_name_load('settings');
   $vocab_category = taxonomy_vocabulary_machine_name_load('category');
   $vocab_committee = taxonomy_vocabulary_machine_name_load('committee');
-
+  $vocab_files = taxonomy_vocabulary_machine_name_load('files');
+  $vocab_photos = taxonomy_vocabulary_machine_name_load('photos');
   $terms = array(
           array(
             'name' => t('Fésið'),
@@ -200,8 +206,12 @@ function municipality_install() {
             'vid' => $vocab_committee->vid,
           ),        
           array(
-            'name' => t('Slæður'),
-            'vid' => $vocab_settings->vid,
+            'name' => t('Eyðublað'),
+            'vid' => $vocab_files->vid,
+          ),        
+          array(
+            'name' => t('Fréttabréf'),
+            'vid' => $vocab_files->vid,
           ),        
 
   );
@@ -451,7 +461,7 @@ function municipality_install() {
  
   // Manually set the password so it appears in the e-mail.
   $account->password = $fields['pass'];
- 
+  
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';

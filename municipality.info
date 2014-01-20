@@ -24,7 +24,8 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 dependencies[] = poll
-dependencies[] = aggregator
+dependencies[] = plupload
+dependencies[] = multiform
 
 ; Hreppur ===================================================================
 dependencies[] = admin_menu
