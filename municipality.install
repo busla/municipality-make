@@ -446,6 +446,7 @@ function municipality_install() {
   $fields = array(
     'name' => 'kidda',
     'mail' => 'kidda@skeidgnup.is',
+    'uid'  => 3,
     'pass' => $password,
     'status' => 1,
     'init' => 'email address',
