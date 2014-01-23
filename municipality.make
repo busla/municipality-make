@@ -162,11 +162,13 @@ projects[skeidgnup_migrate][branch] = "master"
 ; Libraries ======================================================================
 
 ; Bootstrap 3.0.3
-libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v3.0.3.zip"
+libraries[bootstrap][type] = "library"
+libraries[bootstrap][download][type] = "git"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap"
+libraries[bootstrap][download][tag] = "v3.0.3"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][destination] = "themes/skeidgnup_theme"
-libraries[bootstrap][overwrite] = TRUE
+
 
 ; Colorbox
 libraries[colorbox][type] = "library"
