@@ -160,6 +160,13 @@ projects[skeidgnup_migrate][download][type] = "git"
 projects[skeidgnup_migrate][download][url] = "https://github.com/busla/skeidgnup-migrate.git"
 projects[skeidgnup_migrate][branch] = "master"
 
+projects[mupload][type] = "module"
+projects[mupload][subdir] = "contrib"
+projects[mupload][download][type] = "git"
+projects[mupload][download][url] = "http://git.drupal.org/sandbox/vingborg/1138512.git"
+projects[mupload][directory_name] = "mupload"
+projects[mupload][branch] = "master"
+
 ; Libraries ======================================================================
 
 
@@ -177,6 +184,12 @@ libraries[bootstrap][download][tag] = "v3.0.3"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][destination] = "themes/skeidgnup_theme"
 
+
+; Flexslider
+libraries[flexslider][type] = "library"
+libraries[flexslider][download][type] = "file"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.2.zip"
+libraries[flexslider][directory_name] = "flexslider"
 
 ; Colorbox
 libraries[colorbox][type] = "library"
