@@ -131,6 +131,7 @@ projects[fb_social][version] = "2.x-dev"
 projects[fb_social][subdir] = "contrib"
 projects[ajax_poll][subdir] = "contrib"
 projects[pm_existing_pages][subdir] = "contrib"
+projects[jcarousel][subdir] = "contrib"
 
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
 projects[bootstrap_panels_horizontal_tabs][directory_name] = "fap_panels_horizontal_tabs"
@@ -160,6 +161,13 @@ projects[skeidgnup_migrate][download][url] = "https://github.com/busla/skeidgnup
 projects[skeidgnup_migrate][branch] = "master"
 
 ; Libraries ======================================================================
+
+
+; JCarousel
+libraries[jcarousel][type] = "library"
+libraries[jcarousel][download][type] = "file"
+libraries[jcarousel][download][url] = "http://sorgalla.com/jcarousel/dist/jquery.jcarousel-core.min.js"
+libraries[jcarousel][directory_name] = "jcarousel"
 
 ; Bootstrap 3.0.3
 libraries[bootstrap][type] = "library"
