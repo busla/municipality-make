@@ -13,7 +13,7 @@ projects[file_entity][version] = "2.0-alpha3"
 projects[file_entity][subdir] = "contrib"
 ;projects[media_gallery][version] = "2.x-dev"
 ;projects[media_gallery][subdir] = "contrib"
-projects[flexslider][subdir] = "contrib"
+;projects[flexslider][subdir] = "contrib"
 ;projects[flexslider_views_slideshow][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
 ;projects[less][version] = "3.x-dev"
@@ -27,7 +27,7 @@ projects[text_resize][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_bootstrap][version] = "3.x-dev"
 projects[views_bootstrap][subdir] = "contrib"
-;projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
 projects[features][patch][] = "https://drupal.org/files/issues/features_strict-warning-menu-links_2155945-3.patch"
@@ -133,7 +133,7 @@ projects[ajax_poll][subdir] = "contrib"
 projects[pm_existing_pages][subdir] = "contrib"
 
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
-projects[bootstrap_panels_horizontal_tabs][directory_name] = "fap_panels_horizontal_tabs"
+projects[bootstrap_panels_horizontal_tabs][directory_name] = "bootstrap_panels_horizontal_tabs"
 projects[bootstrap_panels_horizontal_tabs][subdir] = "contrib"
 projects[bootstrap_panels_horizontal_tabs][download][type] = "git"
 projects[bootstrap_panels_horizontal_tabs][download][url] = "http://git.drupal.org/sandbox/ShaunDychko/2126611.git"
@@ -178,11 +178,20 @@ libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][destination] = "themes/skeidgnup_theme"
 
 
+http://malsup.github.io/jquery.cycle.all.js
+
+; jQuery Cycle
+;libraries[jquery.cycle][type] = "library"
+;libraries[jquery.cycle][download][type] = "file"
+;libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+;libraries[jquery.cycle][download][filename] = "jquery.cycle.all.min.js"
+;libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
 ; Flexslider
-libraries[flexslider][type] = "library"
-libraries[flexslider][download][type] = "file"
-libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.2.zip"
-libraries[flexslider][directory_name] = "flexslider"
+;libraries[flexslider][type] = "library"
+;libraries[flexslider][download][type] = "file"
+;libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.2.zip"
+;libraries[flexslider][directory_name] = "flexslider"
 
 ; Colorbox
 libraries[colorbox][type] = "library"
