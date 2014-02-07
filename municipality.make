@@ -132,8 +132,10 @@ projects[fb_social][subdir] = "contrib"
 projects[ajax_poll][subdir] = "contrib"
 projects[pm_existing_pages][subdir] = "contrib"
 projects[date_popup_authored][subdir] = "contrib"
+projects[google_analytics][subdir] = "contrib"
 projects[seo_checklist][subdir] = "contrib"
 
+; Bootstrap panels tabs from sandbox
 projects[bootstrap_panels_horizontal_tabs][type] = "module"
 projects[bootstrap_panels_horizontal_tabs][directory_name] = "bootstrap_panels_horizontal_tabs"
 projects[bootstrap_panels_horizontal_tabs][subdir] = "contrib"
